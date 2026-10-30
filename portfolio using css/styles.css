@@ -1,0 +1,41 @@
+:root { --blue:#0750ad; --blue-dark:#063b80; --bg:#f4f4f4; --white:#fff; --text:#252a34; --border:#c8d3e2; }
+        * { box-sizing: border-box; }
+        html { scroll-behavior: smooth; scroll-padding-top: 70px; }
+        body { margin:0; background:var(--bg); color:var(--text); font-family:'Poppins',Arial,sans-serif; line-height:1.6; }
+
+        /* Header */
+        header { position:sticky; top:0; z-index:10; background:var(--blue); color:var(--white); text-align:center; padding:10px 16px; }
+        header h1 { margin:0; font-size:1.5rem; }
+        nav a { color:var(--white); text-decoration:none; font-size:.9rem; font-weight:500; margin:0 10px; }
+        nav a:hover { text-decoration:underline; }
+
+        section { padding:40px 20px; text-align:center; border-bottom:1px solid #bbb; }
+        section:last-of-type { border-bottom:0; }
+        h2 { margin:0 0 20px; font-size:1.4rem; }
+
+        /* About */
+        .avatar { width:200px; height:200px; border-radius:50%; object-fit:cover; display:block; margin:0 auto 20px; box-shadow:0 3px 12px rgba(7,80,173,.25); }
+
+        /* Skills table */
+        table { border-collapse:collapse; margin:0 auto; width:min(100%,420px); }
+        th, td { border:1px solid var(--blue); padding:8px 12px; }
+        th { background:var(--blue); color:var(--white); }
+
+        /* Project cards */
+        .card { background:var(--white); border:1px solid var(--border); border-radius:6px; width:min(100%,520px); margin:0 auto 14px; padding:18px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+        .card h3 { margin:0 0 6px; font-size:1rem; }
+        .card p { margin:0; font-size:.9rem; }
+
+        /* Contact form (table layout) */
+        .contact-table { width:min(100%,520px); }
+        .contact-table td { padding:8px 12px; }
+        .contact-table td:first-child { width:28%; }
+        input, textarea { width:100%; padding:8px; border:1px solid #666; border-radius:2px; font:inherit; font-size:.9rem; background:var(--white); }
+        textarea { min-height:70px; resize:vertical; }
+        button { background:var(--blue); color:var(--white); border:0; padding:8px 40px; border-radius:4px; font:inherit; font-weight:600; cursor:pointer; }
+        button:hover { background:var(--blue-dark); }
+
+        footer { background:var(--blue); color:var(--white); text-align:center; padding:12px; font-size:.85rem; }
+
+        .back-to-top { position:fixed; right:16px; bottom:16px; background:var(--blue); color:var(--white); padding:8px 16px; border-radius:4px; text-decoration:none; font-size:.85rem; font-weight:600; box-shadow:0 2px 8px rgba(0,0,0,.2); }
+        .back-to-top:hover { background:var(--blue-dark); }

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body id top>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="about">About</a>
+            <a href="skills">Skills</a>
+            <a href="projects">Projects</a>
+            <a href="contact">Contact</a>
+        </nav>
+        <hr>
+    </header>
+    <section id="about">
+    <h2>About Me</h2>
+    <img src="https://img.magnific.com/free-vector/user-circles-set_78370-4704.jpg?semt=ais_hybrid&w=740&q=80" alt="" width="200px" height="200px">
+    <br>
+    <p>Hello!My name is Akshay sharma. I am learning web development and this is my first portfolio website</p>
+    </section>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <table>
+            <tr>
+                <th>Skills</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Learning</td>
+            </tr>
+        </table>
+    </section>
+    <section id="Projects">
+        <h2>My Projects</h2>
+        <div class="card">
+            <h3>Project 1</h3>
+            <p>A simple HTML CSS webpage</p>
+        </div>
+        <div class="card">
+            <h3>Project 2</h3>
+            <p>Another awesome mini project</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="contact">
+            <table class="contact-table">
+                <tr>
+                    <td>
+                        <label for="name">Name</label>
+                    </td>
+                    <td>
+                        <input type="text" 
+                        id="name" name="name" placeholder="Enter your name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td>
+                        <input type="email"
+                        id="email" name="email" placeholder="Enter your email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="message">Message</label>
+                    </td>
+                    <td>
+                        <textarea name="message" id="message" placeholder="Write your message" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center"><button type="submit">Send</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <footer></footer>
+    <a class="back-to-top" href="top">Back to Top</a>
+    </body>
+    </html>
